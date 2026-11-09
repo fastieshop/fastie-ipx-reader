@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "IP Koruma Kodu Okuyucu - IP Rating Reader",
+  "version": "1.0.0",
+  "description": "IPX4, IPX7 ve IP67 gibi toz/su koruma kodlarını Türkçe ve İngilizce açıklayan çevrimdışı araç.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "IP Kodu Okuyucu"
+  }
+}
