@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: IP Koruma Kodu Okuyucu
+  structure:
+    - type: space
+      key: ipx-rehberi
+      title: IP Koruma Kodu Okuyucu
+      path: rehber
+      default: true
+      content:
+        directory: ./gitbook
