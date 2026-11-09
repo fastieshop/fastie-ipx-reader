@@ -1,45 +1,65 @@
-# IP Koruma Kodu Okuyucu / IP Rating Reader
+# IP Koruma Kodu Okuyucu
 
-Minimal, offline browser extension for explaining IP enclosure ratings under IEC/EN 60529. Turkish + English interface. Does not request browser permissions, access websites, collect data, call APIs, or run analytics.
+IPX4, IPX7, IP67 ve IP68 gibi koruma kodlarının ne anlama geldiğini açıklayan, ücretsiz ve hafif bir tarayıcı eklentisi.
 
-**Features:** Enter or pick IPX4, IPX7, IP67, IP68 (also IPX0–IPX9, IP0X–IP6X, and other standard two-digit combinations). Read separate solid-object and water-protection meanings, plus water-jet vs immersion cautions.
+**Türkçe arayüz varsayılandır.** İsteyen kullanıcı İngilizceye geçebilir. Eklenti internet bağlantısı gerektirmez; tarayıcı izinleri istemez, kullanıcı verisi toplamaz, analiz servisi veya reklam kullanmaz.
 
-**Note:** An IP rating is not an absolute waterproof guarantee. The manufacturer’s device-specific instructions take priority. IPX7 alone does not demonstrate IPX5/IPX6 water-jet resistance.
+## Ne işe yarar?
 
-## Install for local testing
+- IP kodunun ilk karakterini açıklayarak katı cisim ve toz korumasını gösterir.
+- İkinci karakteri açıklayarak suya karşı korumayı gösterir.
+- IPX4, IPX7, IP67 ve IP68 kodlarını tek tıklamayla inceletir.
+- Su sıçraması, su jeti ve suya daldırma testlerinin aynı şey olmadığını belirtir.
 
-Chrome or Edge: `chrome://extensions` / `edge://extensions` → Developer mode → Load unpacked → select `chromium/`.
+**Önemli:** Bir IP kodu, ürünün her koşulda su geçirmez olduğu anlamına gelmez. IPX7 tek başına IPX5/IPX6 su jeti korumasını kanıtlamaz. Üreticinin ürün özelindeki kullanım ve temizlik talimatları önceliklidir.
 
-Firefox: `about:debugging` → This Firefox → Load Temporary Add-on → select `firefox/manifest.json`.
+## Kurulum ve deneme
 
-## Web demo
+**Chrome / Edge:** `chrome://extensions` veya `edge://extensions` adresini açın → Geliştirici modunu etkinleştirin → **Paketlenmemiş öğe yükle** → `chromium/` klasörünü seçin.
 
-`index.html` is an optional static, zero-dependency web demo using the same `chromium/ip-code.js` logic as the extension. Enable GitHub Pages from the `main` branch root after the code is uploaded.
+**Firefox:** `about:debugging` adresini açın → **Bu Firefox** → **Geçici eklenti yükle** → `firefox/manifest.json` dosyasını seçin.
 
-## Usage examples
+## İnternet tarayıcısında demo
 
-The following examples show **how to interpret a manufacturer's stated IP code**, not claims about particular products or categories. Check each product’s published rating and care instructions.
+Kök dizindeki `index.html` aynı hesaplama mantığıyla çalışan, kurulum gerektirmeyen statik bir demodur. GitHub Pages açıldığında doğrudan kullanılabilir.
 
-- **General vibrator category:** Compare a manufacturer's IPX4 (splash exposure) and IPX7 (temporary immersion) rating when reviewing [vibrator models at Fastieshop](https://www.fastieshop.com/vibratorler/). IPX7 alone does not establish jet resistance.
-- **Rechargeable models:** The IP rating applies to the device configuration stated by the manufacturer. Charging ports, caps and cleaning instructions matter. See [rechargeable vibrator models](https://www.fastieshop.com/vibratorler/sarjli-vibratorler/) to compare manufacturer-listed details.
-- **Clitoral devices:** Check the actual water-resistance rating and manufacturer cleaning guidance, rather than assuming every device is washable. Compare specifications among [clitoral vibrator models](https://www.fastieshop.com/vibratorler/klitoral-vibratorler/).
-- **Wearable devices:** Sweat and splashes are different from prolonged immersion. Check the manufacturer's actual specification for [wearable vibrator models](https://www.fastieshop.com/vibratorler/giyilebilir-vibratorler/).
+## IP koruma kodlarını ürünlerde değerlendirme örnekleri
 
-Detailed examples: [IP kodları — dört kullanım örneği](docs/ornekler.md).
+Aşağıdaki örneklerde **herhangi bir ürünün belirli bir IP sınıfına sahip olduğu varsayılmıyor.** Her modelin gerçek IP sınıfını ve üretici talimatlarını kontrol edin.
 
-## Sources
+### Vibratörler: IPX4 ve IPX7 arasındaki fark
 
-- IEC/EN 60529 (protection degrees for enclosures)
-- [IEC publication record](https://webstore.iec.ch/en/publication/2452)
+IPX4, sıçrayan suya; IPX7 ise belirtilen test koşullarında geçici daldırmaya karşı korumayı tanımlar. Bu farklılıkları ürün teknik bilgilerinde incelerken [Vibratörler](https://www.fastieshop.com/vibratorler/) kategorisindeki modelleri karşılaştırabilirsiniz.
 
-## Privacy
+### Şarjlı Vibratörler: şarj girişleri ve koruyucu kapaklar
 
-See [PRIVACY.md](PRIVACY.md). No data is collected or sent.
+IP derecesi cihazın üretici tarafından tanımlanan koşulları için geçerlidir. Şarj girişi, kapak ve temizlik talimatlarını ürün bazında incelemek için [Şarjlı Vibratörler](https://www.fastieshop.com/vibratorler/sarjli-vibratorler/) kategorisinden yararlanabilirsiniz.
 
-## Publishing
+### Klitoral Vibratörler: temizlik ve sıçrama koruması
 
-Store descriptions should focus on the tool's genuine function and comply with each store's content policies. Do not insert irrelevant links in listings.
+Bir cihazın IPX4 sınıfında olması, suya daldırılabileceği anlamına gelmez. [Klitoral Vibratörler](https://www.fastieshop.com/vibratorler/klitoral-vibratorler/) kategorisindeki ürünleri incelerken her modelin belirtilen koruma sınıfını ve bakım açıklamasını ayrı kontrol edin.
 
-## License
+### Giyilebilir Vibratörler: ter, nem ve suya maruz kalma
 
-MIT (see `LICENSE`).
+Ter, su sıçraması ve suya daldırma farklı koşullardır. [Giyilebilir Vibratörler](https://www.fastieshop.com/vibratorler/giyilebilir-vibratorler/) kategorisinde ürünlerin üretici tarafından belirtilen özelliklerini karşılaştırabilirsiniz.
+
+**Ayrıntılı rehber:** [IP koruma kodları ve dört kullanım örneği](docs/ornekler.md).
+
+## Teknik bilgiler
+
+- Standart referansı: **IEC 60529** — [Resmî yayın kaydı](https://webstore.iec.ch/en/publication/2452)
+- Eklenti sürümü: **1.0.0**
+- Çalışma şekli: Yerel, çevrimdışı; harici sunucu veya API yok
+- Tarayıcılar: Chrome, Edge ve Firefox için ayrı dosyalar
+
+## Gizlilik
+
+Kişisel veri toplanmaz veya aktarılmaz. Ayrıntılar: [Gizlilik politikası](PRIVACY.md).
+
+## Lisans
+
+[MIT Lisansı](LICENSE).
+
+## Yayıncı
+
+Fastieshop. Eklenti, IP koruma sınıflarını anlamaya yardımcı olan bağımsız bir bilgilendirme aracıdır.
