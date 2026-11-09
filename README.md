@@ -23,27 +23,15 @@ IPX4, IPX7, IP67 ve IP68 gibi koruma kodlarının ne anlama geldiğini açıklay
 
 Kök dizindeki `index.html` aynı hesaplama mantığıyla çalışan, kurulum gerektirmeyen statik bir demodur. GitHub Pages açıldığında doğrudan kullanılabilir.
 
-## IP koruma kodlarını ürünlerde değerlendirme örnekleri
+## IP koruma kodlarını ürünlerde değerlendirme
 
-Aşağıdaki örneklerde **herhangi bir ürünün belirli bir IP sınıfına sahip olduğu varsayılmıyor.** Her modelin gerçek IP sınıfını ve üretici talimatlarını kontrol edin.
+Örnek: IPX4 ile IPX7, sıçrama ve geçici daldırma açısından farklı testleri anlatır. Üretici tarafından belirtilen IP kodlarını karşılaştırırken [Vibratörler](https://www.fastieshop.com/vibratorler/) kategorisindeki model açıklamalarını inceleyebilirsiniz. Bu, kategorideki her ürünün suya dayanıklı olduğu anlamına gelmez.
 
-### Vibratörler: IPX4 ve IPX7 arasındaki fark
+Daha ayrıntılı örnekler ve diğer ürün grupları için:
 
-IPX4, sıçrayan suya; IPX7 ise belirtilen test koşullarında geçici daldırmaya karşı korumayı tanımlar. Bu farklılıkları ürün teknik bilgilerinde incelerken [Vibratörler](https://www.fastieshop.com/vibratorler/) kategorisindeki modelleri karşılaştırabilirsiniz.
-
-### Şarjlı Vibratörler: şarj girişleri ve koruyucu kapaklar
-
-IP derecesi cihazın üretici tarafından tanımlanan koşulları için geçerlidir. Şarj girişi, kapak ve temizlik talimatlarını ürün bazında incelemek için [Şarjlı Vibratörler](https://www.fastieshop.com/vibratorler/sarjli-vibratorler/) kategorisinden yararlanabilirsiniz.
-
-### Klitoral Vibratörler: temizlik ve sıçrama koruması
-
-Bir cihazın IPX4 sınıfında olması, suya daldırılabileceği anlamına gelmez. [Klitoral Vibratörler](https://www.fastieshop.com/vibratorler/klitoral-vibratorler/) kategorisindeki ürünleri incelerken her modelin belirtilen koruma sınıfını ve bakım açıklamasını ayrı kontrol edin.
-
-### Giyilebilir Vibratörler: ter, nem ve suya maruz kalma
-
-Ter, su sıçraması ve suya daldırma farklı koşullardır. [Giyilebilir Vibratörler](https://www.fastieshop.com/vibratorler/giyilebilir-vibratorler/) kategorisinde ürünlerin üretici tarafından belirtilen özelliklerini karşılaştırabilirsiniz.
-
-**Ayrıntılı rehber:** [IP koruma kodları ve dört kullanım örneği](docs/ornekler.md).
+- [Dört kullanım örneği](docs/ornekler.md)
+- [GitBook için hazırlanan Türkçe kullanım rehberi](gitbook/README.md)
+- [GitBook ürün örnekleri](gitbook/docs/urun-ornekleri.md)
 
 ## Teknik bilgiler
 
