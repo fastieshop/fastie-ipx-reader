@@ -23,6 +23,10 @@ IPX4, IPX7, IP67 ve IP68 gibi koruma kodlarının ne anlama geldiğini açıklay
 
 Kök dizindeki `index.html` aynı hesaplama mantığıyla çalışan, kurulum gerektirmeyen statik bir demodur. GitHub Pages açıldığında doğrudan kullanılabilir.
 
+## IPX5–IPX8 görsel karşılaştırması
+
+[Kaynaklı Türkçe IPX5–IPX8 karşılaştırması](docs/ipx5-ipx8.md) · [SVG görseli](assets/ipx5-ipx8.svg)
+
 ## IP koruma kodlarını ürünlerde değerlendirme
 
 Örnek: IPX4 ile IPX7, sıçrama ve geçici daldırma açısından farklı testleri anlatır. Üretici tarafından belirtilen IP kodlarını karşılaştırırken [Vibratörler](https://www.fastieshop.com/vibratorler/) kategorisindeki model açıklamalarını inceleyebilirsiniz. Bu, kategorideki her ürünün suya dayanıklı olduğu anlamına gelmez.
