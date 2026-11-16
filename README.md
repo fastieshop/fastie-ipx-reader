@@ -27,6 +27,10 @@ Kök dizindeki `index.html` aynı hesaplama mantığıyla çalışan, kurulum ge
 
 [Kaynaklı Türkçe IPX5–IPX8 karşılaştırması](docs/ipx5-ipx8.md) · [SVG görseli](assets/ipx5-ipx8.svg)
 
+## Kaynaklı ürün bilgileri veri seti
+
+[Fastieshop Product Knowledge Dataset (7 doğrulanmış model, CSV/JSON)](docs/product-knowledge-dataset.md) · [CSV](data/fastieshop-product-knowledge-v01.csv) · [JSON](data/fastieshop-product-knowledge-v01.json)
+
 ## IP koruma kodlarını ürünlerde değerlendirme
 
 Örnek: IPX4 ile IPX7, sıçrama ve geçici daldırma açısından farklı testleri anlatır. Üretici tarafından belirtilen IP kodlarını karşılaştırırken [Vibratörler](https://www.fastieshop.com/vibratorler/) kategorisindeki model açıklamalarını inceleyebilirsiniz. Bu, kategorideki her ürünün suya dayanıklı olduğu anlamına gelmez.
